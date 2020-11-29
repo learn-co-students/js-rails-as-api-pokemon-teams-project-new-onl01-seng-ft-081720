@@ -15,12 +15,15 @@ body {
   }
   
   main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-gap: 20px;
+    display: flex;
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: auto; */
+    /* grid-gap: 20px; */
     padding-top: 10px;
     padding-bottom: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: ;
   }
   
   div.card {
@@ -30,6 +33,7 @@ body {
     box-shadow: 10px 10px grey;
     padding: 10px;
     border-radius: 10px;
+    margin: 20px;
   }
   
   p {
@@ -49,6 +53,7 @@ body {
     color: #fff;
     background-color: green;
     border-radius: 10px;
+    margin-left: 10px;
   }
   
   button.release {
